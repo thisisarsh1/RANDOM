@@ -38,6 +38,7 @@ function Page() {
             if (i.username === formData.username && i.password === formData.password) {
                 setIndex(i.id);
                 found = true;
+                console.log(true)
             }
         });
 
